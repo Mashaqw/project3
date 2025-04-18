@@ -1,0 +1,567 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dragon Wok - Доставка азиатской кухни</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Шапка сайта -->
+    <header class="main-header">
+        <div class="header-top">
+            <div class="container">
+                <div class="header-info">
+                    <div class="info-item">
+                        <i class="fas fa-clock"></i>
+                        <span>Ежедневно 10:00 - 23:00</span>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-phone-alt"></i>
+                        <a href="tel:+78005553535">8 (800) 555-35-35</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <nav class="main-nav">
+            <div class="container">
+                <div class="nav-wrapper">
+                    <a href="#" class="logo">
+                        <img src="img/logo.png" alt="Dragon Wok" width="120">
+                        <span class="logo-text">Dragon Wok</span>
+                    </a>
+                    
+                    <ul class="nav-menu">
+                        <li><a href="#main" class="active">Главная</a></li>
+                        <li><a href="#menu">Меню</a></li>
+                        <li><a href="#actions">Акции</a></li>
+                        <li><a href="#reviews">Отзывы</a></li>
+                        <li><a href="#delivery">Доставка</a></li>
+                        <li><a href="#contacts">Контакты</a></li>
+                    </ul>
+                    
+                    <div class="header-actions">
+                        <button class="cart-btn">
+                            <i class="fas fa-shopping-cart"></i>
+                            <span class="cart-counter">3</span>
+                        </button>
+                        <button class="menu-toggle">
+                            <i class="fas fa-bars"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Основной контент -->
+    <main>
+        <!-- Герой секция -->
+        <section class="hero-section">
+            <div class="container">
+                <div class="hero-content">
+                    <h1 class="hero-title">Настоящая азиатская кухня с доставкой на дом</h1>
+                    <p class="hero-subtitle">Закажите сейчас и получите скидку 20% на первый заказ!</p>
+                    <div class="hero-cta">
+                        <a href="#menu" class="cta-btn">Выбрать блюдо</a>
+                        <a href="#actions" class="cta-btn outline">Смотреть акции</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Популярные категории -->
+        <section class="categories-section">
+            <div class="container">
+                <h2 class="section-title">Популярные категории</h2>
+                
+                <div class="categories-grid">
+                    <div class="category-card">
+                        <img src="img/sushi-category.jpg" alt="Суши и роллы">
+                        <div class="category-info">
+                            <h3>Суши и роллы</h3>
+                            <a href="#" class="category-link">Смотреть меню →</a>
+                        </div>
+                    </div>
+                    
+                    <div class="category-card">
+                        <img src="img/wok-category.jpeg" alt="Лапша WOK">
+                        <div class="category-info">
+                            <h3>Лапша WOK</h3>
+                            <a href="#" class="category-link">Смотреть меню →</a>
+                        </div>
+                    </div>
+                    
+                    <div class="category-card">
+                        <img src="img/soups-category.jpg" alt="Супы">
+                        <div class="category-info">
+                            <h3>Супы</h3>
+                            <a href="#" class="category-link">Смотреть меню →</a>
+                        </div>
+                    </div>
+                    
+                    <div class="category-card">
+                        <img src="img/desserts-category.jpg" alt="Десерты">
+                        <div class="category-info">
+                            <h3>Десерты</h3>
+                            <a href="#" class="category-link">Смотреть меню →</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Меню -->
+        <section class="menu-section" id="menu">
+            <div class="container">
+                <h2 class="section-title">Наше меню</h2>
+                <div class="menu-filters">
+                    <button class="filter-btn active">Все</button>
+                    <button class="filter-btn">Новинки</button>
+                    <button class="filter-btn">Хиты</button>
+                    <button class="filter-btn">Вегетарианские</button>
+                    <button class="filter-btn">Острые</button>
+                </div>
+                
+                <div class="menu-grid">
+                    <!-- Начало блока с 30 элементами меню -->
+                    <div class="menu-item">
+                        <div class="item-image">
+                            <img src="img/phila.jpeg" alt="Филадельфия">
+                            <span class="item-badge new">Новинка</span>
+                        </div>
+                        <div class="item-details">
+                            <h3>Ролл Филадельфия</h3>
+                            <p class="item-description">Лосось, сливочный сыр, рис, нори, огурец</p>
+                            <div class="item-footer">
+                                <div class="item-weight">250 г</div>
+                                <div class="item-price">549 ₽</div>
+                                <button class="add-to-cart">
+                                    <i class="fas fa-plus"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="menu-item">
+                        <div class="item-image">
+                            <img src="img/udong.jpg" alt="Лапша с говядиной">
+                            <span class="item-badge hit">Хит</span>
+                        </div>
+                        <div class="item-details">
+                            <h3>Лапша Удон с говядиной</h3>
+                            <p class="item-description">Говядина, удон, овощи, соус терияки</p>
+                            <div class="item-footer">
+                                <div class="item-weight">400 г</div>
+                                <div class="item-price">389 ₽</div>
+                                <button class="add-to-cart">
+                                    <i class="fas fa-plus"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Повторить аналогичные блоки menu-item 28 раз -->
+                    <!-- Пример третьего элемента -->
+                    <div class="menu-item">
+                        <div class="item-image">
+                            <img src="img/tomuamcrile.jpg" alt="Том Ям">
+                            <span class="item-badge spicy">Острое</span>
+                        </div>
+                        <div class="item-details">
+                            <h3>Том Ям с креветками</h3>
+                            <p class="item-description">Кокосовое молоко, креветки, грибы, лемонграсс</p>
+                            <div class="item-footer">
+                                <div class="item-weight">350 г</div>
+                                <div class="item-price">459 ₽</div>
+                                <button class="add-to-cart">
+                                    <i class="fas fa-plus"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="menu-item">
+                        <div class="item-image">
+                            <img src="img/rollcalifornia.jpg" alt="Калифорния">
+                            <span class="item-badge new">Новинка</span>
+                        </div>
+                        <div class="item-details">
+                            <h3>Ролл Калифорния</h3>
+                            <p class="item-description">Краб-микс, авокадо, огурец, икра тобико</p>
+                            <div class="item-footer">
+                                <div class="item-weight">230 г</div>
+                                <div class="item-price">479 ₽</div>
+                                <button class="add-to-cart">
+                                    <i class="fas fa-plus"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="menu-item">
+                        <div class="item-image">
+                            <img src="img/woksobachiken.jpg" alt="Соба с курицей">
+                            <span class="item-badge hit">Хит</span>
+                        </div>
+                        <div class="item-details">
+                            <h3>Лапша Соба с курицей</h3>
+                            <p class="item-description">Курица, гречневая лапша, овощи, кунжут</p>
+                            <div class="item-footer">
+                                <div class="item-weight">380 г</div>
+                                <div class="item-price">349 ₽</div>
+                                <button class="add-to-cart">
+                                    <i class="fas fa-plus"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="menu-item">
+                        <div class="item-image">
+                            <img src="img/unagi.jpg" alt="Унаги">
+                            <span class="item-badge hit">Хит</span>
+                        </div>
+                        <div class="item-details">
+                            <h3>Ролл Унаги</h3>
+                            <p class="item-description">Угорь, сливочный сыр, соус унаги</p>
+                            <div class="item-footer">
+                                <div class="item-weight">270 г</div>
+                                <div class="item-price">689 ₽</div>
+                                <button class="add-to-cart">
+                                    <i class="fas fa-plus"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="menu-item">
+                        <div class="item-image">
+                            <img src="img/misosoup.jpg" alt="Мисо">
+                            <span class="item-badge new">Новинка</span>
+                        </div>
+                        <div class="item-details">
+                            <h3>Суп Мисо</h3>
+                            <p class="item-description">Соевая паста, тофу, водоросли вакаме</p>
+                            <div class="item-footer">
+                                <div class="item-weight">300 г</div>
+                                <div class="item-price">289 ₽</div>
+                                <button class="add-to-cart">
+                                    <i class="fas fa-plus"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="menu-item">
+                        <div class="item-image">
+                            <img src="img/motimango.jpg" alt="Моти">
+                            <span class="item-badge new">Новинка</span>
+                        </div>
+                        <div class="item-details">
+                            <h3>Моти с манго</h3>
+                            <p class="item-description">Традиционный японский десерт</p>
+                            <div class="item-footer">
+                                <div class="item-weight">150 г</div>
+                                <div class="item-price">249 ₽</div>
+                                <button class="add-to-cart">
+                                    <i class="fas fa-plus"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <!-- Еще 5 карточек -->
+                    <div class="menu-item">
+                        <div class="item-image">
+                            <img src="img/udonveg.jpeg" alt="Овощной">
+                            <span class="item-badge new">Новинка</span>
+                        </div>
+                        <div class="item-details">
+                            <h3>Овощной Вок</h3>
+                            <p class="item-description">Лапша удон, cезонные овощи, соус терияки</p>
+                            <div class="item-footer">
+                                <div class="item-weight">350 г</div>
+                                <div class="item-price">299 ₽</div>
+                                <button class="add-to-cart">
+                                    <i class="fas fa-plus"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <!-- ... Остальные 27 элементов ... -->
+                    
+                </div>
+            </div>
+        </section>
+
+        <!-- Акции -->
+        <section class="promo-section" id="actions">
+            <div class="container">
+                <h2 class="section-title">Специальные предложения</h2>
+                <div class="promo-grid">
+                    <div class="promo-card big">
+                        <div class="promo-content">
+                            <h3>Комбо на двоих</h3>
+                            <p>2 основных блюда + закуска + напитки</p>
+                            <div class="promo-price">
+                                <span class="old-price">1200 ₽</span>
+                                <span class="new-price">899 ₽</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="promo-card">
+                        <div class="promo-content">
+                            <h3>Скидка 30%</h3>
+                            <p>На все воки по будням</p>
+                            <div class="promo-timer">
+                                <i class="fas fa-clock"></i>
+                                <span>До 18:00</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="promo-card">
+                        <div class="promo-content">
+                            <h3>Бесплатная доставка</h3>
+                            <p>При заказе от 1500 ₽</p>
+                            <div class="promo-icon">
+                                <i class="fas fa-truck"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Отзывы -->
+        <section class="reviews-section" id="reviews">
+            <div class="container">
+                <h2 class="section-title">Отзывы клиентов</h2>
+                <div class="reviews-slider">
+                    <!-- 10 отзывов -->
+                    <div class="review-card">
+                        <div class="review-header">
+                            <img src="img/ecat.jpg" alt="Анна">
+                            <div class="user-info">
+                                <h4>Катасонова Екатерина</h4>
+                                <div class="rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half-alt"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="review-text">Лучшие роллы в городе! Заказываем регулярно, всегда свежие продукты и быстрая доставка.</p>
+                    </div>
+
+                    <div class="review-card">
+                        <div class="review-header">
+                            <img src="img/Emelya.jpg" alt="Дмитрий">
+                            <div class="user-info">
+                                <h4>Дмитрий Иванов</h4>
+                                <div class="rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="review-text">Отличный сервис и вкуснейшая лапша! Особенно рекомендую том ям - просто огонь!</p>
+                    </div>
+
+                    <!-- ... Остальные 8 отзывов ... -->
+                    
+                </div>
+            </div>
+        </section>
+
+        <!-- Доставка и оплата -->
+        <section class="delivery-section" id="delivery">
+            <div class="container">
+                <div class="delivery-content">
+                    <div class="delivery-info">
+                        <h2 class="section-title">Условия доставки</h2>
+                        <div class="delivery-steps">
+                            <div class="step">
+                                <div class="step-number">1</div>
+                                <div class="step-content">
+                                    <h4>Выберите блюда</h4>
+                                    <p>Добавьте понравившиеся позиции в корзину</p>
+                                </div>
+                            </div>
+                            
+                            <div class="step">
+                                <div class="step-number">2</div>
+                                <div class="step-content">
+                                    <h4>Оформите заказ</h4>
+                                    <p>Укажите адрес и время доставки</p>
+                                </div>
+                            </div>
+                            
+                            <div class="step">
+                                <div class="step-number">3</div>
+                                <div class="step-content">
+                                    <h4>Получите заказ</h4>
+                                    <p>Курьер привезет ваш заказ вовремя</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="payment-methods">
+                        <h3>Способы оплаты</h3>
+                        <div class="methods-grid">
+                            <div class="method">
+                                <i class="fas fa-money-bill-wave"></i>
+                                <span>Наличными</span>
+                            </div>
+                            <div class="method">
+                                <i class="fab fa-cc-visa"></i>
+                                <span>Картой онлайн</span>
+                            </div>
+                            <div class="method">
+                                <i class="fab fa-google-pay"></i>
+                                <span>Google Pay</span>
+                            </div>
+                            <div class="method">
+                                <i class="fab fa-apple-pay"></i>
+                                <span>Apple Pay</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Контакты -->
+        <section class="contacts-section" id="contacts">
+            <div class="container">
+                <div class="contacts-wrapper">
+                    <div class="contact-info">
+                        <h2 class="section-title">Контакты</h2>
+                        <div class="info-block">
+                            <h4>Адрес:</h4>
+                            <p>г. Москва, ул. Покровка, д. 35</p>
+                        </div>
+                        <div class="info-block">
+                            <h4>Телефон:</h4>
+                            <a href="tel:+78005553535">8 (800) 555-35-35</a>
+                        </div>
+                        <div class="info-block">
+                            <h4>Режим работы:</h4>
+                            <p>Пн-Вс: 10:00 - 23:00</p>
+                        </div>
+                        <div class="social-links">
+                            <a href="#"><i class="fab fa-vk"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-telegram"></i></a>
+                            <a href="#"><i class="fab fa-whatsapp"></i></a>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-map">
+                        <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A1f6e2d3..." 
+                                frameborder="0" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Подвал -->
+    <footer class="main-footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Меню</h4>
+                    <ul>
+                        <li><a href="#menu">Суши и роллы</a></li>
+                        <li><a href="#menu">Лапша WOK</a></li>
+                        <li><a href="#menu">Супы</a></li>
+                        <li><a href="#menu">Десерты</a></li>
+                        <li><a href="#menu">Напитки</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Компания</h4>
+                    <ul>
+                        <li><a href="#">О нас</a></li>
+                        <li><a href="#">Новости</a></li>
+                        <li><a href="#">Вакансии</a></li>
+                        <li><a href="#">Франшиза</a></li>
+                        <li><a href="#">Поставщикам</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Помощь</h4>
+                    <ul>
+                        <li><a href="#">Доставка</a></li>
+                        <li><a href="#">Оплата</a></li>
+                        <li><a href="#">Возврат</a></li>
+                        <li><a href="#">Контакты</a></li>
+                        <li><a href="#">FAQ</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Подписка</h4>
+                    <form class="subscribe-form">
+                        <input type="email" placeholder="Ваш email">
+                        <button type="submit">Подписаться</button>
+                    </form>
+                    <p>Получайте специальные предложения</p>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <div class="copyright">
+                    © 2024 Dragon Wok. Все права защищены
+                </div>
+                <div class="legal-links">
+                    <a href="#">Политика конфиденциальности</a>
+                    <a href="#">Пользовательское соглашение</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Модальные окна -->
+    <div class="modal cart-modal">
+        <div class="modal-content">
+            <h3>Ваша корзина</h3>
+            <div class="cart-items">
+                <!-- Товары в корзине -->
+            </div>
+            <div class="cart-total">
+                <span>Итого:</span>
+                <span class="total-price">0 ₽</span>
+            </div>
+            <button class="close-modal">&times;</button>
+        </div>
+    </div>
+
+    <div class="modal callback-modal">
+        <div class="modal-content">
+            <h3>Обратный звонок</h3>
+            <form class="callback-form">
+                <input type="text" placeholder="Ваше имя">
+                <input type="tel" placeholder="Телефон">
+                <button type="submit">Заказать звонок</button>
+            </form>
+            <button class="close-modal">&times;</button>
+        </div>
+    </div>
+</body>
+</html>
